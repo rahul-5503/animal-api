@@ -6,10 +6,6 @@ const mongoose=require('mongoose');
 const dotenv = require('dotenv').config()
 const productroutes=require('./api/routes/products');
 const ordersroutes=require('./api/routes/Orders');
-
-mongoose.connect(
-    process.env.MONGODBURL
-  );
   
 app.use(morgan('dev'));
 app.use(bodyparser.json());
