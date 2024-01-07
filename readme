@@ -1,1 +1,14 @@
-r
+### Created a api for fun so it may be it have bug.
+
+and  i deployed it in cyclic it is in live  (https://fantastic-erin-colt.cyclic.app)
+
+and sum functionality like post/ 
+ have a data to upload in by { "Name":"animalname",
+                                "productImage":"image .png or jpeg or jpg",
+                               "about":"content of the anials",
+                               "type":"mammals"
+                            }
+
+get / productid or mammals or name eg: /lion
+
+get /products it return all the data in mongodb
