@@ -16,7 +16,8 @@ mongoose.set('strictQuery',false);
 const connectDB = async ()=>{
     try {
         const conn =await mongoose.connect(process.env.MONGODBURL);
-        console.log(`MongoDB Connection: ${conn.connection.host}`);
+        console.log(`mongoDB connection : ${conn}`);
+        console.log(`MongoDB Connection host: ${conn.connection.host}`);
     }
     catch(error){
         console.log('mongodb connection error:',error);
